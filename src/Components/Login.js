@@ -16,7 +16,7 @@ const history = useHistory();
 const loginUser = async (e) => {
     e.preventDefault();
 console.log("1");
-    const res = await fetch("/signin" ,{
+    const res = await fetch("https://collegelogbook.herokuapp.com/signin" ,{
       method : "POST",
       headers : {
         'Content-Type': 'application/json'
