@@ -1,0 +1,41 @@
+.login-2{
+background-color: rgb(34, 142, 230);
+}
+
+.label-login-2{
+float:center ;
+color:white;
+margin-bottom: 2.5%;
+margin-top: 4.75%;
+font-size: large;
+border:none;
+}
+
+.input-login-2{
+float:center;
+width:80%;
+border-radius: 25px;
+padding: 5px;
+border:none;
+}
+
+.login-btn-2{
+width:50%;
+margin-top: 5%;
+background-color: orange;
+padding: 10px;
+border-radius: 25px;
+font-weight: bold;
+border:none;
+}
+
+.login-home-2{
+width:50%;
+background-color: yellow;
+padding: 10px;
+border-radius: 25px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+border:none;
+}

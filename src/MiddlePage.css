@@ -1,0 +1,10 @@
+.middle-page-div{
+    background-color: rgb(34, 142, 230);
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    text-align: center;
+    height: 50%;
+    width:100%;
+}
