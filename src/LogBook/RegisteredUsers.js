@@ -6,7 +6,7 @@ const RegisteredUsers = () => {
      const [expenseList, setExpenseList] = useState([]);
 const [searchTerm, setSearchTerm] = useState("");
      useEffect(() => {
-       axios.get("http://localhost:5000/read/").then((response) => {
+       axios.get("https://collegelogbook.herokuapp.com/read/").then((response) => {
          console.log(response);
          setExpenseList(response.data);
        });
