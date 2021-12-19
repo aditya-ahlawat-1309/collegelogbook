@@ -12521,7 +12521,7 @@ const handleInputs = (e) => {
     const [section, setSection] = useState("");
     const [email, setEmail] = useState("");
     const [nameChalkpad, setNameChalkpad] = useState("");
-    
+    const [passcode, setPasscode] = useState("");
 
 const history = useHistory();
 
@@ -12541,7 +12541,8 @@ for(var i=0;i<=login_details.length;i++)
           mobile === `${obj.Mobile}` &&
           nameChalkpad === `${obj.Name}` &&
           section === `${obj.Section}` &&
-          email === `${obj.Email}`
+          email === `${obj.Email}` &&
+          passcode === `Priyanshi`
         ) {
           window.alert("Login Successful");
           history.push("/middle-page");
@@ -12649,6 +12650,25 @@ for(var i=0;i<=login_details.length;i++)
             required
             className="input-login-2"
           />
+              
+              
+               <br />
+          <label for="email" className="label-login-2">
+            <b>Access Code </b>
+          </label>
+          <br />
+          <input
+            //value={user.Email}
+
+            onChange={(e) => setPasscode(e.target.value)}
+            //onChange={handleInputs}
+            type="text"
+            placeholder="Enter Access Code"
+            name="passcode"
+            required
+            className="input-login-2"
+          />
+              
           {/* <label for="referrer">
             <b>Referred By</b>
           </label>
